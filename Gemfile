@@ -2,11 +2,11 @@ source 'http://rubygems.org'
 
 gem 'copy', '0.1.7'
 gem 'redcarpet', '1.17.2'
-gem 'mongoid'
+gem 'mongoid', '2.4.12'
 
 # Using mongodb for storage? Uncomment these:
 #
-gem 'mongo'
+gem 'mongo', '1.6.2'
 gem 'bson_ext'
 
 # Using redis?
