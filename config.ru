@@ -12,7 +12,7 @@ if ENV['RACK_ENV'] != 'production'
   # > use copy-demo
   # switched to db copy-demo
   # > db.addUser("copy", "copy")
-  ENV['MONGOHQ_URL'] ||= 'mongodb://chai:chai@localhost/chai'
+  ENV['MONGOHQ_URL'] ||= 'mongodb://chai:chai@staff.mongohq.com:10057/app5882341'
 end
 
 Copy::Server.config do
