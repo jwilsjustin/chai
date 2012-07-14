@@ -1,4 +1,1 @@
-chai
-====
-
-chai
+# Built using the [Copy CMS](https://github.com/javan/copy)

@@ -1,0 +1,24 @@
+
+<%= partial 'shared/bookmark' %>
+
+<div id="columns">
+  <h1><% copy :love do %>I love Copy<% end %></h1>
+  
+  <div class="column">
+    <% copy :article1 do %>
+      This is where _Article 1_ will go.
+    <% end %>
+  </div>
+
+  <div class="column">
+    <% copy :article2 do %>
+      This is where _Article_ 2 will go.
+    <% end %>
+  </div>
+
+  <div class="column">
+    <% copy :article3 do %>
+      This is where _Article 3_ will go.
+    <% end %>
+  </div>
+</div>
