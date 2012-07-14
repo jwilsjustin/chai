@@ -4,7 +4,7 @@ Bundler.require(:default)
 
 # For local development with mongodb.
 if ENV['RACK_ENV'] != 'production'
-  ENV['COPY_USERNAME'] ||= 'heroku'
+  ENV['COPY_USERNAME'] ||= 'chai'
   ENV['COPY_PASSWORD'] ||= 'chai'
   # $ mongo
   # MongoDB shell version: 1.8.1
@@ -12,7 +12,7 @@ if ENV['RACK_ENV'] != 'production'
   # > use copy-demo
   # switched to db copy-demo
   # > db.addUser("copy", "copy")
-  ENV['MONGOHQ_URL'] ||= 'mongodb://heroku:chai@staff.mongohq.com:10057/app5882341'
+  ENV['MONGOHQ_URL'] ||= 'mongodb://chai:chai@staff.mongohq.com:10057/app5882341'
 end
 
 Copy::Server.config do
