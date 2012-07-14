@@ -4,6 +4,9 @@ gem 'copy', '0.1.7'
 gem 'redcarpet', '1.17.2'
 gem 'mongoid', '2.4.12'
 
+gem 'less'
+gem 'therubyracer'
+
 # Using mongodb for storage? Uncomment these:
 #
 gem 'mongo', '1.6.2'

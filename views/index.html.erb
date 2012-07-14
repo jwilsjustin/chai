@@ -1,24 +1,23 @@
 
-<%= partial 'shared/bookmark' %>
-
-<div id="columns">
-  <h1><% copy :love do %>I love Copy<% end %></h1>
-  
-  <div class="column">
-    <% copy :article1 do %>
+<div class="row">
+  <div class="twelve columns">
+    <div class="twelve columns">
+      <h1><% copy :header do %>Dr. Wilson's Authentic Indian Chai<% end %></h1>
+    </div>
+    <div class="four columns">
+      <% copy :article1 do %>
       This is where _Article 1_ will go.
-    <% end %>
-  </div>
-
-  <div class="column">
-    <% copy :article2 do %>
+      <% end %>
+    </div>
+    <div class="four columns">
+      <% copy :article2 do %>
       This is where _Article_ 2 will go.
-    <% end %>
-  </div>
-
-  <div class="column">
-    <% copy :article3 do %>
+      <% end %>
+    </div>
+    <div class="four columns">
+      <% copy :article3 do %>
       This is where _Article 3_ will go.
-    <% end %>
+      <% end %>
+    </div>
   </div>
 </div>
