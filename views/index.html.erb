@@ -1,23 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>American-Indian Trading Company - Authentic Chai</title>
+<style type="text/css">
+body {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+  padding: 0;
+  text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+  color: #000000;
+  background-image: url(images/patt_489a4483ee4fa.jpg);
+  background-attachment:fixed;
 
-<div class="row">
-  <div class="twelve columns">
-    <div class="twelve columns">
-      <h1><% copy :header do %>Dr. Wilson's Authentic Indian Chai<% end %></h1>
-    </div>
-    <div class="four columns">
-      <% copy :article1 do %>
-      This is where _Article 1_ will go.
-      <% end %>
-    </div>
-    <div class="four columns">
-      <% copy :article2 do %>
-      This is where _Article_ 2 will go.
-      <% end %>
-    </div>
-    <div class="four columns">
-      <% copy :article3 do %>
-      This is where _Article 3_ will go.
-      <% end %>
+}
+.oneColFixCtrHdr #container {
+  width: 763px;
+  text-align: left;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  height: 800px;
+}
+.oneColFixCtrHdr #header {
+  background-image: url(images/Header.png);
+  height: 210px;
+  background-repeat: no-repeat;
+}
+.oneColFixCtrHdr #container #mainBGRD {
+  background-image: url(images/HomeBGRD.png);
+  height: 316px;
+  width: 683px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.oneColFixCtrHdr #footer {
+  padding: 0 10px;
+}
+#Layer2 {
+  position:absolute;
+  left:282px;
+  top:223px;
+  width:768px;
+  height:37px;
+  z-index:1;
+  visibility: visible;
+}
+.style1 {font-family: "Times New Roman", Times, serif}
+#Layer1 {
+  position:absolute;
+  left:278px;
+  top:586px;
+  width:752px;
+  height:23px;
+  z-index:1;
+}
+.oneColFixCtrHdr #Layer1 {
+  height: 25px;
+  width: 763px;
+  background-image: url(images/Overlap.png);
+  text-align: center;
+  left: 281px;
+  bottom: 50%;
+}
+.oneColFixCtrHdr #container #Spacer {
+  height: 60px;
+}
+.style2 { font-size: small;
+  color: #666666;
+}
+.oneColFixCtrHdr #container #mainBGRD #home_text {
+  float: inherit;
+  margin-top: 95px;
+  margin-left: 140px;
+  margin-right: 140px;
+  width: 400px;
+}
+.style3 {font-size: medium}
+a:link {
+  color: #31491E;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #31491E;
+}
+a:hover {
+  text-decoration: underline;
+  color: #990000;
+}
+a:active {
+  text-decoration: none;
+}
+
+a#contact:link {
+  text-decoration: underline;
+  color: #888;
+}
+a#contact:visited {
+  text-decoration: underline;
+  color: #888;
+}
+</style>
+
+</head>
+
+<body class="oneColFixCtrHdr" onload="MM_preloadImages('file:///C|/Documents and Settings/Compaq_Administrator/Desktop/ChaiGuy/barLINKSover.png','images/barHOMEover.png','images/barCHAIover.png','images/barORDERover.png','images/barDRWILSONover.png','images/barLINKSover.png')">
+<div id="container">
+  <div id="header"></div>
+  
+  <%= partial "shared/tablenav" %>
+
+  <div class="style1" id="mainBGRD">
+    <label></label>
+    <div id="home_text">
+      <div align="center" class="style3">
+        <div align="center">This site is dedicated to what most of the <br />
+          world's population has know for milleniums:<br /> 
+          <em>the&nbsp; pleasure&nbsp; of &nbsp;Chai!</em> <br />
+          Dr. Wilson's is unique and traditional.<br />
+          <br />
+          <a href="whatischai.html">[ What on earth is Chai? ]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="order">[ I want some Real Chai! ]</a><br />
+          <br />
+          <a href="about">[ Contact Dr. Wilson]</a></div>
+
+
+      </div>
     </div>
   </div>
+  <img src="images/Footer.png" width="763" height="25" />
+  <div id="Spacer"><span class="style2">&copy; American-Indian Trading Company LLC. | site design by <a id="contact" target="_blank" href="http://justin.spillthebeans.tv/">Justin Wilson</a> </span></div>
 </div>
+
+</body>
+</html>
+
