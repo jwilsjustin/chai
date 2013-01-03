@@ -1,22 +1,11 @@
-@import url('foundation.css');
-
-.subtle a {
-  color: #999;
-  font-size: 12px;
-}
-.subtle a:hover {
-  color: #555;
-  font-size: 12px;
-}
 body {
 	font: 100% Verdana, Arial, Helvetica, sans-serif;
-	margin: 0; 
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
 	padding: 0;
-	text-align: center;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
-	background-image: url(images/patt_489a4483ee4fa.jpg);
+	background-image: url(/images/patt_489a4483ee4fa.jpg);
 	background-attachment:fixed;
-
 }
 .oneColFixCtrHdr #container {
 	width: 763px;
@@ -33,11 +22,11 @@ body {
 	background-repeat: no-repeat;
 }
 .oneColFixCtrHdr #container #mainBGRD {
-	background-image: url(images/HomeBGRD.png);
-	height: 316px;
+	background-image: url(images/MedBGRD.png);
+	height: 535px;
 	width: 683px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	padding-top: 15px;
+	padding-top: 5px;
 	padding-right: 40px;
 	padding-left: 40px;
 }
@@ -73,20 +62,37 @@ body {
 .oneColFixCtrHdr #container #Spacer {
 	height: 60px;
 }
-.style2 {	font-size: small;
+.style2 {
+	font-size: small;
 	color: #666666;
 }
-.oneColFixCtrHdr #container #mainBGRD #home_text {
-	float: inherit;
-	margin-top: 95px;
-	margin-left: 140px;
-	margin-right: 140px;
-	width: 400px;
+.oneColFixCtrHdr #container #mainBGRD #cup_pic {
+	height: 120px;
+	width: 180px;
 }
-.style3 {font-size: medium}
+.oneColFixCtrHdr #container #mainBGRD #pile_chai {
+	height: 185px;
+	width: 313px;
+	float: right;
+	margin-left: 15px;
+}
+.oneColFixCtrHdr #container #mainBGRD #cup_of_chai {
+	height: 180px;
+	width: 228px;
+	float: left;
+	margin-right: 20px;
+}
+.oneColFixCtrHdr #container #mainBGRD #chai_header {
+}
+.oneColFixCtrHdr #container #mainBGRD #chai_header {
+	height: 50px;
+	margin-bottom: 20px;
+	width: 683px;
+	margin-top: 10px;
+}
 a:link {
-	color: #31491E;
 	text-decoration: none;
+	color: #31491E;
 }
 a:visited {
 	text-decoration: none;
@@ -99,6 +105,12 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
+.style7 {font-size: 90%}
+.style8 {font-size: 100%; }
+.style9 {
+	font-size: 85%;
+	font-style: italic;
+}
 
 a#contact:link {
 	text-decoration: underline;
@@ -108,3 +120,96 @@ a#contact:visited {
 	text-decoration: underline;
 	color: #888;
 }
+
+-->
+.oneColFixCtrHdr #container {
+	width: 763px;
+	text-align: left;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	height: 800px;
+}
+.oneColFixCtrHdr #header {
+	background-image: url(/images/Header.png);
+	height: 210px;
+	background-repeat: no-repeat;
+}
+.oneColFixCtrHdr #container #mainBGRD {
+	background-image: url(/images/MedBGRD.png);
+	height: 525px;
+	width: 683px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-top: 15px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.oneColFixCtrHdr #footer {
+	padding: 0 10px;
+}
+#Layer2 {
+	position:absolute;
+	left:282px;
+	top:223px;
+	width:768px;
+	height:37px;
+	z-index:1;
+	visibility: visible;
+}
+.style1 {font-family: "Times New Roman", Times, serif}
+#Layer1 {
+	position:absolute;
+	left:278px;
+	top:586px;
+	width:752px;
+	height:23px;
+	z-index:1;
+}
+.oneColFixCtrHdr #Layer1 {
+	height: 25px;
+	width: 763px;
+	background-image: url(/images/Overlap.png);
+	text-align: center;
+	left: 281px;
+	bottom: 50%;
+}
+.oneColFixCtrHdr #container #Spacer {
+	height: 60px;
+}
+.style2 {	font-size: small;
+	color: #666666;
+}
+.oneColFixCtrHdr #container #mainBGRD #drwilsonTOP {
+	width: 341px;
+	float: left;
+	height: 110px;
+	padding-left: 25px;
+}
+.oneColFixCtrHdr #container #mainBGRD #drwilsonTOPR {
+	float: right;
+	width: 316px;
+	height: 110px;
+}
+.oneColFixCtrHdr #container #mainBGRD #DrWilsonPIC {
+	height: 331px;
+	width: 274px;
+	float: left;
+}
+.style3 {
+	font-size: x-small;
+	color: #663300;
+}
+a:link {
+	color: #006600;
+}
+a:visited {
+	color: #990000;
+}
+a#contact:link {
+	color: #888;
+}
+a#contact:visited {
+	color: #888;
+}
+
